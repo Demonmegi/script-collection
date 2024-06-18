@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cut -d' ' -f2-4 phonebook.txt > phonebook.csv
+sort -k2,2 -k,1 < phonebook.csv
