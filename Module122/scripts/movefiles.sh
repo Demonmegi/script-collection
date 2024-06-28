@@ -11,17 +11,17 @@
 # Introduction of the script
 read -p "Hello! Please run this script inside your "/home/user" folder. This script will create and remove files as well as moving an entire folder to a destination, deleting the folder once everything is done. The entire process is step by step so you have to press Enter at every step. Press ENTER to continue"
 
-# Creates a file called "bill321"
-touch bill321
+# Creates a file called "invoice321"
+touch invoice321
 
 # Prompt the user to press ENTER
-read -p "File bill321 created! Press ENTER "
+read -p "File invoice321 created! Press ENTER "
 
-# Deletes the "bill321" file
-rm bill321
+# Deletes the "invoice321" file
+rm invoice321
 
 # Prompt the user to press ENTER
-read -p "File "bill321" deleted! Press ENTER "
+read -p "File "invoice321" deleted! Press ENTER "
 
 # Create a folder called "source"
 mkdir source
@@ -35,11 +35,11 @@ cd source
 # Prompt the user to press ENTER
 read -p "Now we moved to the "source" folder! Press ENTER "
 
-# Creates the files "bill100" "bill101" "bill102" "bill103" "bill104" "bill105"
-touch bill100 bill101 bill102 bill103 bill104 bill105
+# Creates the files "invoice100" "invoice101" "invoice102" "invoice103" "invoice104" "invoice105"
+touch invoice100 invoice101 invoice102 invoice103 invoice104 invoice105
 
 # Prompt the user to press ENTER
-read -p "The files bill100 bill101 bill102 bill103 bill104 bill105 have been created! Press ENTER "
+read -p "The files invoice100 invoice101 invoice102 invoice103 invoice104 invoice105 have been created! Press ENTER "
 
 # Navigate back
 cd
